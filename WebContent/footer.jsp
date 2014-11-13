@@ -12,7 +12,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
  <h5>本网站所有内容由广大互联网爱好者共同维护，如果你有什么想法及建议请与我微博<a href="http://weibo.com/lns7" target="_blank">@神奇猎人</a>联系或邮件至x#lns7.com ,替换#为@</h5>
   
-  <h5>GitHub地址: <a href="https://github.com/Jack798/Lns7" target="_blank">https://github.com/Jack798/Lns7</a></h5>
+  <h5>GitHub1地址: <a href="https://github.com/Jack798/Lns7" target="_blank">https://github.com/Jack798/Lns7</a></h5>
   
   <h5>作者: <a href="http://weibo.com/lns7" target="_blank">@海洋猎手_</a></h5>
   
