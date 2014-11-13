@@ -1,0 +1,51 @@
+https://api.weixin.qq.com/cgi-bin/menu/create?access_token=9XO24j6fYAKbbNxwSlv1q55rYO6YfFKsQsggeCbd9-ZR9gIF1SnCAiOn9Rou3B64pkJq-Tm1e_WlzVnawGOoagjNKL_fuQfePV05p5L6fzf4qGAN5rE1gG0-AYDc1pocITK92LD4cxnOnuYqo70-ng
+
+{
+     "button":[
+     {	
+          
+          "name":"自助查询",
+    	"sub_button":[
+  		           {	
+  		               "type":"click",
+  		               "name":"查询水费",
+  		               "key":"ak"
+  		            },
+  		            {
+  		               "type":"view",
+  		               "name":"银行代收网点",
+  		               "url":"http://www.lns7.com/zilaishuiWAP/bank_money.jsp#mp.weixin.qq.com"
+  		            },
+  		            {
+  		               "type":"view",
+  		               "name":"自有网店",
+  		               "url":"http://www.lns7.com/zilaishuiWAP/ziyouwangdian.jsp#mp.weixin.qq.com"
+  		            },
+  		            {
+      		               "type":"view",
+      		               "name":"供水分类价格",
+      		               "url":"http://www.lns7.com/zilaishuiWAP/fengleijiage.jsp#mp.weixin.qq.com"
+      		            }]
+          
+      },
+      {
+           "name":"报装保修",
+        	"sub_button":[
+	      		           {	
+	      		               "type":"view",
+	      		               "name":"报装",
+	      		               "url":"http://www.lns7.com/zilaishuiWAP/baozhuang.jsp#mp.weixin.qq.com"
+	      		            },
+	      		            {
+	      		               "type":"click",
+	      		               "name":"保修",
+	      		               "key":"96116"
+	      		            }]
+      },
+      {
+    	   "type":"view",
+           "name":"用水常识",
+           "url":"http://www.lns7.com/zilaishuiWAP/changshi_list.jsp#mp.weixin.qq.com"
+           
+       }]
+ }
