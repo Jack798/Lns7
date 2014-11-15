@@ -3,12 +3,8 @@ package com.Lns7;
 import java.io.*;
 import java.net.*;
 import java.nio.charset.*;
-
 import java.util.*;
 import java.util.logging.*;
- 
-
-
 
 import org.htmlparser.NodeFilter;
 import org.htmlparser.Parser;
@@ -16,6 +12,9 @@ import org.htmlparser.filters.AndFilter;
 import org.htmlparser.filters.HasAttributeFilter;
 import org.htmlparser.filters.TagNameFilter;
 import org.htmlparser.util.NodeList;
+import com.alibaba.appengine.api.fetchurl.FetchUrlService;
+import com.alibaba.appengine.api.fetchurl.FetchUrlServiceFactory;
+
 
 public class webRequest {
 
@@ -106,6 +105,8 @@ public class webRequest {
 		 
 	    private String _encoding = Charset.defaultCharset().name();
 	    private HttpURLConnection _HttpURLConnection = null;
+	    FetchUrlService fetchUrlService = FetchUrlServiceFactory.getFetchUrlService();
+
 	    
 
 		private Map<String,String> _reHeaders = new HashMap <String, String>();
